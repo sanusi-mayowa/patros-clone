@@ -1,0 +1,383 @@
+.beginner h2{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.beginner-hr{
+    border: none;
+    height: 1px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 750px;
+}
+.beginner img{
+    width: 750px;
+    cursor: pointer;
+}
+.beginner img:hover{
+    filter: brightness(80%);
+}
+.entry-data{
+    padding: 6px 0px;
+    color: #9f9f9f;
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+}
+.admin-span{
+    color: #e96840;
+    cursor: pointer;
+}
+.admin-span:hover{
+    color: black;
+}
+.entry-data-2{
+    display: flex;
+    gap: 15px;
+    float: right !important;
+}
+.this p{
+    color: #9f9f9f;
+    font-size: 13px;
+    width: 760px;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+.this span{
+    color: #e96840;
+    cursor: pointer;
+}
+.this span:hover{
+    color: #9f9f9f;
+}
+.this h2{
+    font-weight: 500;
+    margin-top: 20px;
+}
+blockquote{
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5;
+    border-left: 5px solid #eee;
+}
+blockquote{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+blockquote p{
+    width: 710px;
+    color: #9f9f9f;
+}
+.last-one{
+margin-bottom: 30px;
+}
+.button-4{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.btn-1{
+    color: #fff;
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: #00acee;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-1:hover{
+    filter: brightness(80%);
+}
+.btn-2{
+    background-color: #3b5998;
+    text-align: center;
+    border: none;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-2:hover{
+    filter: brightness(80%);
+}
+.btn-3{
+    background-color: #e93f2e;
+    text-align: center;
+    border: none;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-3:hover{
+    filter: brightness(80%);
+}
+.btn-4{
+    background-color: #0e76a8;
+    text-align: center;
+    border: none;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-4:hover{
+    filter: brightness(80%);
+}
+.message-24{
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+}
+.message-24 h2{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.message-24 textarea{
+    margin-left: 30px;
+    border-radius: 4px;
+    outline: none;
+    width: 600px;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.message-24 textarea:focus{
+    border: 1px solid #e96840;
+}
+.message-24 button{
+    margin-left: 30px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #e96840;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+}
+.message-24 button:hover{
+    background-color: black;
+}
+.message-center{
+    width: 700px;
+}
+.cras{
+    display: flex;
+    gap: 10px;
+    line-height: 1.8;
+    color: #9f9f9f;
+}
+.cras img{
+    cursor: pointer;
+    width: 60px;
+    transition: .5s ease;
+}
+.cras img:hover{
+    filter: brightness(80%);
+}
+.cras h4{
+    font-weight: 600;
+    color: black;
+}
+.cras span{
+    font-size: 12px;
+    color: #9f9f9f;
+}
+.cras p{
+    font-size: 13px;
+}
+.cras-two{
+    margin-left: 50px;
+}
+.last-hrt{
+    margin-left: 50px;
+    width: 650px;
+}
+.last-last-last{
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 390px) {
+    .beginner img{
+        width: 350px;
+        margin-right: 20px;
+    }
+    .mayowa-2{
+        margin: 0;
+        padding-left: 20px;
+    }
+    .this p{
+        width: 350px;
+    }
+    .beginner-hr{
+        width: 350px;
+    }
+    blockquote p{
+        width: 330px;
+    }
+    .message-24{
+        width: 350px;
+    }
+    .message-24 textarea{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .cras{
+        width: 350px;
+    }
+    .cras-two{
+        width: 300px;
+    }
+    .first-section-blog{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .beginner img{
+        width: 350px;
+        margin-right: 20px;
+    }
+    .mayowa-2{
+        margin: 0;
+        padding-left: 20px;
+    }
+    .this p{
+        width: 350px;
+    }
+    .beginner-hr{
+        width: 350px;
+    }
+    blockquote p{
+        width: 330px;
+    }
+    .message-24{
+        width: 350px;
+    }
+    .message-24 textarea{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .cras{
+        width: 350px;
+    }
+    .cras-two{
+        width: 300px;
+    }
+    .first-section-blog{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .beginner img{
+        width: 300px;
+        margin-right: 20px;
+    }
+    .btn-4{
+        visibility: hidden;
+    }
+    .mayowa-2{
+        margin: 0;
+        padding-left: 20px;
+    }
+    .this p{
+        width: 300px;
+    }
+    .beginner-hr{
+        width: 300px;
+    }
+    blockquote p{
+        width: 300px;
+    }
+    .message-24{
+        width: 300px;
+    }
+    .message-24 textarea{
+        width: 250px;
+        margin-right: 30px;
+    }
+    .cras{
+        width: 330px;
+    }
+    .cras-two{
+        width: 250px;
+    }
+    .first-section-blog{
+        gap: 10px;
+    }
+    .mayowa{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .beginner img{
+        width: 270px;
+        margin-right: 20px;
+    }
+    .mayowa-2{
+        margin: 0;
+        padding-left: 20px;
+    }
+    .this p{
+        width: 270px;
+    }
+    .beginner-hr{
+        width: 350px;
+    }
+    blockquote p{
+        width: 270px;
+    }
+    .message-24{
+        width: 275px;
+    }
+    .message-24 textarea{
+        width: 220px;
+        margin-right: 30px;
+    }
+    .cras{
+        width: 280px;
+    }
+    .cras-two{
+        width: 250px;
+        margin-left: 20px;
+    }
+    .first-section-blog{
+        gap: 10px;
+    }
+    .btn-4{
+        visibility: hidden;
+    }
+    .mayowa{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    .btn-4{
+        visibility: hidden;
+    }
+}
+/* @media screen and (max-width: 768px) {
+    .beginner img{
+        width: 600px;
+    }
+    .this p{
+        width: 630px;
+    }
+    .message-24{
+        width: 650px;
+    }
+    .cras{
+        width: 650px;
+    }
+} */
